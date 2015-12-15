@@ -1,0 +1,36 @@
+{
+  "name": "scientist",
+  "version": "0.0.1",
+  "description": "Framework for refactoring critical paths carefully in your Node.js application",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidTPate/scientist.git"
+  },
+  "keywords": [
+    "ab",
+    "testing",
+    "testing",
+    "ab",
+    "scientist",
+    "refactor",
+    "refactoring"
+  ],
+  "author": "David Pate <davidtpate@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidTPate/scientist/issues"
+  },
+  "homepage": "https://github.com/DavidTPate/scientist#readme",
+  "devDependencies": {
+    "code": "^2.x",
+    "lab": "^8.x",
+    "markdown-toc": "^0.x"
+  },
+  "scripts": {
+    "test": "lab -t 100 -a code -L",
+    "test-cov-html": "lab -r html -o coverage.html -a code",
+    "toc": "node generate-readme-toc.js",
+    "version": "npm run toc && git add API.md"
+  }
+}
