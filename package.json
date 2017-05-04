@@ -25,14 +25,14 @@
   "dependencies": {
     "bluebird": "^3.x",
     "deep-diff": "^0.3.3",
-    "deep-eql": "^0.x",
+    "deep-eql": "^2.0.1",
     "extend": "^3.0.0",
-    "joi": "^7.x"
+    "joi": "^10.4.1"
   },
   "devDependencies": {
-    "code": "^2.x",
-    "lab": "^8.x",
-    "markdown-toc": "^0.x"
+    "code": "^4.0.0",
+    "lab": "^13.0.4",
+    "markdown-toc": "^1.1.0"
   },
   "scripts": {
     "test": "lab -t 94 -a code -L",
